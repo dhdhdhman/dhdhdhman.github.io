@@ -1,0 +1,99 @@
+/* commn */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0
+    
+}
+
+
+h1{
+  margin: 0;
+  font-size: 24;
+  color:darkcyan;
+  font-weight: normal;
+  padding-top: 64px;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+p{
+  font-style: 12px;
+  line-height: 1.6;
+}
+P+P {
+  margin-top: 32px;
+}
+
+/* body */
+.container{
+  margin: 16px;
+  outline: 1px solid red;
+}
+
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.btn{
+  margin: 0;
+  display: block;
+  width: 160px;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+  background: #1cfb03;
+  text-decoration: none;
+  color: aliceblue;
+  border-radius: 8px;
+}
+
+.users{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  padding: 12px 0;
+}
+.users p{
+  width: 300px;
+  text-align: center;
+  /* padding: 8px 0; */
+}
+
+/* section */
+section.appri{
+  text-align: center;
+  background: lightskyblue;
+  background-image: url(../img/bg.png);
+  background-repeat: repeat-x;
+  background-position: left bottom;
+
+}
+section.appri {
+  text-align: center;
+}
+section.appri .btn{
+margin: 32px auto ;
+}
+header.appri P{
+  margin-top: 16px;
+  line-height: 2;
+}
+
+header.appri img{
+  padding-top: 32px;
+}
+
+/* hero */
+section h1{
+  text-align: center;
+}
+
+.hero img{
+  margin: 24px 6px;
+
+}
