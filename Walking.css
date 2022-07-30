@@ -53,17 +53,10 @@ a{
 header {
 background: #eee;
 padding: 16px 0;
+text-align: center;  
 }
-  
-/* header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
-header .container{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;  
+header .btn{
+  margin: 32px auto;
 }
 /* hero */
 .hero{
@@ -176,11 +169,22 @@ padding: 16px;
 
 }
 
+/* miduamu screen */
+
+@media (min-width: 600px) {
+  header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+  }  
+
 
 
 /* large screen */
 
-@media  (min-width: 600px) {
+@media (min-width: 600px) {
  
   .hero .container {
     display: flex;
